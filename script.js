@@ -11,7 +11,7 @@ function highlight() {
 function return_normal() {
     //Write your code here
 let normaltext = document.querySelectorAll("strong");
-    boldWords.forEach((elem) => {
+    normaltext.forEach((elem) => {
         elem.style.color = "black"; 
     });
     
